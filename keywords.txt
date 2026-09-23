@@ -1,0 +1,94 @@
+#######################################
+# Syntax Coloring Map For SMB_file
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SMB_Session	KEYWORD1
+SMB_File	KEYWORD1
+SMB_Config	KEYWORD1
+SMB_FileInfo	KEYWORD1
+SMB_OpenMode	KEYWORD1
+SMB_Status	KEYWORD1
+SMB_ReqType	KEYWORD1
+SMB_Request	KEYWORD1
+SMB_LineCallback	KEYWORD1
+SMB_ListCallback	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+end	KEYWORD2
+disconnect	KEYWORD2
+isConnected	KEYWORD2
+dialect	KEYWORD2
+lastError	KEYWORD2
+bytesSent	KEYWORD2
+bytesReceived	KEYWORD2
+errors	KEYWORD2
+setIOTimeout	KEYWORD2
+setFeedCallback	KEYWORD2
+open	KEYWORD2
+close	KEYWORD2
+remove	KEYWORD2
+exists	KEYWORD2
+mkdir	KEYWORD2
+listDir	KEYWORD2
+readAll	KEYWORD2
+readTail	KEYWORD2
+readLastLine	KEYWORD2
+writeFile	KEYWORD2
+append	KEYWORD2
+syncTime	KEYWORD2
+submit	KEYWORD2
+status	KEYWORD2
+result	KEYWORD2
+error	KEYWORD2
+release	KEYWORD2
+pending	KEYWORD2
+poll	KEYWORD2
+lock	KEYWORD2
+unlock	KEYWORD2
+config	KEYWORD2
+defaultSMBConfig	KEYWORD2
+read	KEYWORD2
+write	KEYWORD2
+seek	KEYWORD2
+pos	KEYWORD2
+size	KEYWORD2
+eof	KEYWORD2
+isOpen	KEYWORD2
+path	KEYWORD2
+
+#######################################
+# Constants / Literals (LITERAL1)
+#######################################
+
+SMB_READ	LITERAL1
+SMB_WRITE	LITERAL1
+SMB_APPEND	LITERAL1
+SMB_CREATE	LITERAL1
+SMB_CREATE_ALWAYS	LITERAL1
+SMB_OPEN_ALWAYS	LITERAL1
+SMB_IDLE	LITERAL1
+SMB_PENDING	LITERAL1
+SMB_RUNNING	LITERAL1
+SMB_DONE	LITERAL1
+SMB_ERROR	LITERAL1
+SMB_REQ_NONE	LITERAL1
+SMB_REQ_CONNECT	LITERAL1
+SMB_REQ_DISCONNECT	LITERAL1
+SMB_REQ_REMOVE	LITERAL1
+SMB_REQ_EXISTS	LITERAL1
+SMB_REQ_MKDIR	LITERAL1
+SMB_REQ_LIST	LITERAL1
+SMB_REQ_READALL	LITERAL1
+SMB_REQ_READTAIL	LITERAL1
+SMB_REQ_WRITEFILE	LITERAL1
+SMB_REQ_APPEND	LITERAL1
+SMB_PORT	LITERAL1
+SMB_FILE_VERSION	LITERAL1

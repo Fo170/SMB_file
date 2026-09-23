@@ -1,0 +1,42 @@
+{
+  "name": "SMB_file",
+  "version": "1.2.0",
+  "description": "Client SMB 2.1 / NTLMv2 (ESP32) : gestion fondamentale de fichiers sur partage reseau (NAS Samba/Windows/OMV) - connexion, creation, suppression, lecture (complete/partielle/tail), ecriture, ajout, position/seek, parcours de repertoire. API sync + file d'attente non bloquante avec statut + acces multiples serialises (mutex). Crypto integree (MD4, MD5, HMAC-MD5, SHA-256, HMAC-SHA256). Patchs 2026 : timeout I/O configurable (io_timeout_ms/setIOTimeout), callback de rafraichissement WDT (setFeedCallback), ecriture decoupee en paquets <= 3072 o.",
+  "keywords": ["smb", "cifs", "smb2", "nas", "file", "ntlmv2", "esp32", "arduino", "platformio"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fo170/SMB_file.git"
+  },
+  "authors": [
+    {
+      "name": "Olivier FOURNET",
+      "email": "olivier.fournet@free.fr",
+      "url": "https://github.com/Fo170",
+      "maintainer": true
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/Fo170/SMB_file",
+  "frameworks": "arduino",
+  "platforms": "espressif32",
+  "headers": "SMB_file.h",
+  "build": { "srcDir": "src" },
+  "examples": [
+    {
+      "name": "SMB_Demo",
+      "base": "examples",
+      "files": ["SMB_Demo/SMB_Demo.ino"]
+    }
+  ],
+  "export": {
+    "exclude": [
+      "*.md",
+      "*.yml",
+      "*.txt",
+      "*.ini",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "copilot-instructions.md"
+    ]
+  }
+}
