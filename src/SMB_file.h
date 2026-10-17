@@ -61,6 +61,9 @@
 #ifndef SMB_FILE_H
 #define SMB_FILE_H
 
+
+// Version de la librairie (source UNIQUE — agrégée par liste_lib.h)
+#define __SMB_FILE_H_VERSION__ "1.2.0"
 // ----------------------------------------------------------------------------
 // Version de la librairie
 // ----------------------------------------------------------------------------
