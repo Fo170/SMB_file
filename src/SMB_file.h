@@ -63,7 +63,7 @@
 
 
 // Version de la librairie (source UNIQUE — agrégée par liste_lib.h)
-#define __SMB_FILE_H_VERSION__ "1.2.0"
+#define __SMB_FILE_H_VERSION__ "1.2.1"
 // ----------------------------------------------------------------------------
 // Version de la librairie
 // ----------------------------------------------------------------------------

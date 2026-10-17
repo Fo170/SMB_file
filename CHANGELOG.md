@@ -3,6 +3,19 @@
 Toutes les dates sont au format AAAA-MM-JJ.
 Le versionnage suit [SemVer](https://semver.org/lang/fr/).
 
+## [1.2.1] - 2026-10-17
+
+### ✨ Added — macro de version `__<LIB>_H_VERSION__`
+
+Chaque header déclare désormais sa version via une macro préprocesseur,
+source **unique** (un projet hôte peut l'agréger, ex. page `/version`).
+
+### 🏷️ Divers
+
+- Version `1.2.0` → `1.2.1` (`library.json` + `library.properties`)
+
+---
+
 ## [1.2.0] - 2026-09-23
 
 Documentation, outillage PlatformIO et exemple — aucun changement d'API ni de

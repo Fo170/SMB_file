@@ -1,6 +1,6 @@
 {
   "name": "SMB_file",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Client SMB 2.1 / NTLMv2 (ESP32) : gestion fondamentale de fichiers sur partage reseau (NAS Samba/Windows/OMV) - connexion, creation, suppression, lecture (complete/partielle/tail), ecriture, ajout, position/seek, parcours de repertoire. API sync + file d'attente non bloquante avec statut + acces multiples serialises (mutex). Crypto integree (MD4, MD5, HMAC-MD5, SHA-256, HMAC-SHA256). Patchs 2026 : timeout I/O configurable (io_timeout_ms/setIOTimeout), callback de rafraichissement WDT (setFeedCallback), ecriture decoupee en paquets <= 3072 o.",
   "keywords": ["smb", "cifs", "smb2", "nas", "file", "ntlmv2", "esp32", "arduino", "platformio"],
   "repository": {
